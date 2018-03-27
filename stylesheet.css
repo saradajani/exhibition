@@ -1,0 +1,80 @@
+.daramolahtml {
+	cursor: url('images/daramola.PNG'), auto;
+}
+
+.noelhtml {
+	cursor: url('images/noel.PNG'), auto;
+}
+
+.indexhtml {
+	cursor: url('images/donald.PNG'), auto;
+}
+
+.indexbody{
+	font-family:"courier new";
+	background: url("images/history.jpg");
+	background-size: cover;
+	text-align: center;
+	color: white;
+}
+	
+.daramolabody{
+	font-family:"courier new";
+	background: url("images/worldmap.jpg");
+	background-size: cover;
+	text-align: center;
+	color: white;
+}
+.noelbody{
+	font-family:"courier new";
+	background: url("images/books.jpg");
+	background-size: cover;
+	text-align: center;
+}
+	
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:black;
+	position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li{
+    float:left;
+}
+
+li a{
+    display:block;
+    color:white;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+}
+
+li{
+    border-right:1px solid #bbb;
+}
+
+li:last-child{
+    border-right:none;
+}
+
+
+.grid {
+	display: grid;
+  border: 2px #9D8CFF;
+  height: 1000px;
+  grid-template: repeat(3, 1fr) / 2fr 2fr;
+  max-width: 1500px;
+  margin: auto;
+}
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px #9D8CFF solid;
+}
