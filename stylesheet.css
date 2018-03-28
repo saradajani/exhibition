@@ -68,7 +68,7 @@ li:last-child{
 	display: grid;
   border: 2px #9D8CFF;
   height: 1000px;
-  grid-template: repeat(3, 1fr) / 2fr 2fr;
+  grid-template: repeat(2, 1fr) / 2fr 2fr;
   max-width: 1500px;
   margin: auto;
 }
